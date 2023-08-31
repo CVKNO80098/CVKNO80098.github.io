@@ -9,8 +9,34 @@
     <atom:link href="https://cvkno80098.github.io/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>群星见我，我见群星</description>
-    <pubDate>Thu, 31 Aug 2023 06:45:39 GMT</pubDate>
+    <pubDate>Thu, 31 Aug 2023 13:41:46 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>页面示例</title>
+      <link>https://cvkno80098.github.io/2023/08/31/Test/</link>
+      <guid>https://cvkno80098.github.io/2023/08/31/Test/</guid>
+      <pubDate>Thu, 31 Aug 2023 13:01:00 GMT</pubDate>
+      
+        
+        
+      <description>&lt;h1 id=&quot;这是一个示例，记录各个软件的用法&quot;&gt;&lt;a href=&quot;#这是一个示例，记录各个软件的用法&quot; class=&quot;headerlink&quot; title=&quot;这是一个示例，记录各个软件的用法&quot;&gt;&lt;/a&gt;这是一个示例，记录各个软件的用法&lt;/h1&gt;&lt;p&gt;当您需要了解文章的配置的时候</description>
+        
+      
+      
+      
+      <content:encoded><![CDATA[<h1 id="这是一个示例，记录各个软件的用法"><a href="#这是一个示例，记录各个软件的用法" class="headerlink" title="这是一个示例，记录各个软件的用法"></a>这是一个示例，记录各个软件的用法</h1><p>当您需要了解文章的配置的时候正确的做法是打开这份md文件而不是从网站上查看渲染</p><h2 id="编写格式"><a href="#编写格式" class="headerlink" title="编写格式"></a>编写格式</h2><h3 id="页面"><a href="#页面" class="headerlink" title="页面"></a>页面</h3><p>这个就是</p><h3 id="主题"><a href="#主题" class="headerlink" title="主题"></a>主题</h3><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">title: 发布示例页 #【必需】页面标题</span><br><span class="line"></span><br><span class="line">date: 2023/8/31 20:55 #【必需】页面创建日期</span><br><span class="line">type:           #【必需】标签、分类和友情链接三个页面需要配置</span><br><span class="line">updated:        #【可选】页面更新日期</span><br><span class="line">description:    #【可选】页面描述</span><br><span class="line">keywords:       #【可选】页面关键字</span><br><span class="line">comments:       #【可选】显示页面评论模块 (默认 true)</span><br><span class="line">top<span class="emphasis">_img:        #【可选】页面顶部图片</span></span><br><span class="line"><span class="emphasis">mathjax:        #【可选】显示mathjax (当设置mathjax的per_</span>page: false时，才需要配置，默认 false)</span><br><span class="line">katex:          #【可选】显示katex (当设置katex的per<span class="emphasis">_page: false时，才需要配置，默认 false)</span></span><br><span class="line"><span class="emphasis">aside:          #【可选】显示侧边栏 (默认 true)</span></span><br><span class="line"><span class="emphasis">aplayer:        #【可选】在需要的页面加载aplayer的js和css,请参考文章下面的音乐 配置</span></span><br><span class="line"><span class="emphasis">highlight_</span>shrink:   #【可选】配置代码框是否展开 (true/false) (默认为设置中highlight<span class="emphasis">_shrink的配置)</span></span><br><span class="line"><span class="emphasis">random:         #【可选】配置友情链接是否随机排序（默认为 false）</span></span><br><span class="line"><span class="emphasis"></span></span><br></pre></td></tr></table></figure><h2 id="butterFly配置"><a href="#butterFly配置" class="headerlink" title="butterFly配置"></a>butterFly配置</h2><h3 id="新建标签页"><a href="#新建标签页" class="headerlink" title="新建标签页"></a>新建标签页</h3><p>创建新的主题，如：<code>link</code>等等，如果要创建新的，可以在根目录下使用：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new page &lt;name&gt;</span><br></pre></td></tr></table></figure><p>它将会显示您创建的东西可以在<code>source/&lt;name&gt;/index.md</code>处修改，如果您已经创建了一个，将会出现index-1.md的东西</p><h4 id="友情链接配置"><a href="#友情链接配置" class="headerlink" title="友情链接配置"></a>友情链接配置</h4><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: link</span><br><span class="line">type: &#x27;link&#x27;</span><br><span class="line"><span class="section">date: 2023-08-31 21:06:43</span></span><br><span class="line"><span class="section">---</span></span><br></pre></td></tr></table></figure><p>之后，您将在<code>source/_data</code>下创建一个文件，名为<code>link.yml</code>【如果没有这个文件夹请创建一个】</p><h3 id="新写一篇文章"><a href="#新写一篇文章" class="headerlink" title="新写一篇文章"></a>新写一篇文章</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new <span class="string">&quot;post title with whitespace&quot;</span></span><br></pre></td></tr></table></figure><h5 id="莫得了"><a href="#莫得了" class="headerlink" title="莫得了"></a>莫得了</h5><h2 id="HEXO-命令"><a href="#HEXO-命令" class="headerlink" title="HEXO 命令"></a>HEXO 命令</h2><h3 id="初始化"><a href="#初始化" class="headerlink" title="初始化"></a>初始化</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo init [folder]</span><br></pre></td></tr></table></figure><p>新建一个网站。如果没有设置 folder ，Hexo 默认在目前的文件夹建立网站。</p><h3 id="新建文章"><a href="#新建文章" class="headerlink" title="新建文章"></a>新建文章</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new [layout] &lt;title&gt;</span><br></pre></td></tr></table></figure><p>新建一篇文章。如果没有设置 layout 的话，默认使用 _config.yml 中的 default_layout 参数代替。如果标题包含空格的话，请使用引号括起来，如：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new <span class="string">&quot;post title with whitespace&quot;</span></span><br></pre></td></tr></table></figure><h3 id="部署"><a href="#部署" class="headerlink" title="部署"></a>部署</h3><p>清理缓存</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br></pre></td></tr></table></figure><p>生成静态文件</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo g</span><br></pre></td></tr></table></figure><p>部署网站</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo d</span><br></pre></td></tr></table></figure><p>将上传到GIT，相关配置请见主文件下的<code>_config.yml</code></p>]]></content:encoded>
+      
+      
+      <category domain="https://cvkno80098.github.io/categories/%E6%B5%8B%E8%AF%95/">测试</category>
+      
+      
+      <category domain="https://cvkno80098.github.io/tags/%E6%B5%8B%E8%AF%95/">测试</category>
+      
+      
+      <comments>https://cvkno80098.github.io/2023/08/31/Test/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>My New Post</title>
@@ -20,13 +46,14 @@
       
         
         
-      <description>&lt;p&gt;good！&lt;/p&gt;
+      <description>&lt;p&gt;这是我创建的第一个Post！&lt;/p&gt;
+&lt;p&gt;好耶！&lt;/p&gt;
 </description>
         
       
       
       
-      <content:encoded><![CDATA[<p>good！</p>]]></content:encoded>
+      <content:encoded><![CDATA[<p>这是我创建的第一个Post！</p><p>好耶！</p>]]></content:encoded>
       
       
       
@@ -41,11 +68,14 @@
       <guid>https://cvkno80098.github.io/2023/08/30/hello-world/</guid>
       <pubDate>Wed, 30 Aug 2023 06:43:40 GMT</pubDate>
       
-      <description>&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;</description>
+        
+        
+      <description>&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</description>
+        
       
       
       
-      <content:encoded><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><span id="more"></span><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content:encoded>
+      <content:encoded><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content:encoded>
       
       
       
