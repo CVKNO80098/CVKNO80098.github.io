@@ -9,14 +9,43 @@
     <atom:link href="https://cvkno80098.github.io/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>群星见我，我见群星</description>
-    <pubDate>Thu, 31 Aug 2023 13:41:46 GMT</pubDate>
+    <pubDate>Fri, 01 Sep 2023 02:23:36 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>SCC：安全内容加密器</title>
+      <link>https://cvkno80098.github.io/2023/09/01/SCC%EF%BC%9A%E5%AE%89%E5%85%A8%E5%86%85%E5%AE%B9%E5%8A%A0%E5%AF%86%E5%99%A8/</link>
+      <guid>https://cvkno80098.github.io/2023/09/01/SCC%EF%BC%9A%E5%AE%89%E5%85%A8%E5%86%85%E5%AE%B9%E5%8A%A0%E5%AF%86%E5%99%A8/</guid>
+      <pubDate>Fri, 01 Sep 2023 00:49:27 GMT</pubDate>
+      
+      <description>SCC（Secure Content Cryptographer） 是一个命令行加密程序，允许您使用密码对文本进行加密和解密，为您的敏感信息提供了一种简单且安全的保护方式。</description>
+      
+      
+      
+      <content:encoded><![CDATA[<h1 id="SCC-安全内容加密器"><a href="#SCC-安全内容加密器" class="headerlink" title="SCC - 安全内容加密器"></a>SCC - 安全内容加密器</h1><p><a href="https://github.com/CVKNO80098/SCC">项目地址</a></p><p><strong>SCC（Secure Content Cryptographer）</strong> 是一个命令行加密程序，允许您使用密码对文本进行加密和解密，为您的敏感信息提供了一种简单且安全的保护方式。</p><h2 id="使用方法"><a href="#使用方法" class="headerlink" title="使用方法"></a>使用方法</h2><figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">SCC -L &lt;str&gt; -p &lt;password&gt; | -U &lt;str&gt; -p &lt;password&gt; |-w &lt;address&gt; [--version] [--<span class="built_in">help</span>]</span><br></pre></td></tr></table></figure><h2 id="选项"><a href="#选项" class="headerlink" title="选项"></a>选项</h2><ul><li><code>-L &lt;str&gt;</code>：指定要使用给定密码加密的文本（<code>&lt;str&gt;</code> 代表文本）。</li><li><code>-p &lt;password&gt;</code>：指定密码（<code>&lt;password&gt;</code> 代表密码）。</li><li><code>-U &lt;str&gt;</code>：指定要使用给定密码解密的文本（<code>&lt;str&gt;</code> 代表文本）。</li><li><code>-w &lt;address&gt;</code>：启用将输出保存为 txt 文件。可选的 <code>&lt;address&gt;</code> 指定文件路径。如果未提供地址，则默认为 “temp.txt”。</li><li><code>--version</code>：显示程序版本信息。</li><li><code>--help</code>：显示帮助信息。</li></ul><p>请注意，<code>-w</code> 选项必须最后指定，且可以留空。</p><h2 id="示例"><a href="#示例" class="headerlink" title="示例"></a>示例</h2><ul><li><p>加密文本：</p><figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">SCC -L &quot;Hello, World!&quot; -p MyPassword -w output.txt</span><br></pre></td></tr></table></figure></li><li><p>解密文本：</p><figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">SCC -U &quot;encrypted_text&quot; -p MyPassword</span><br></pre></td></tr></table></figure></li><li><p>将加密&#x2F;解密后的文本保存到文件（默认路径：temp.txt）：</p><figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">SCC -L &quot;Hello, World!&quot; -p MyPassword -w</span><br></pre></td></tr></table></figure></li><li><p>显示程序版本：</p><figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">SCC --version</span><br></pre></td></tr></table></figure></li><li><p>显示帮助信息：</p><figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">SCC --<span class="built_in">help</span></span><br></pre></td></tr></table></figure></li></ul><h2 id="许可证"><a href="#许可证" class="headerlink" title="许可证"></a>许可证</h2><p>该项目在 GNU 许可证下许可。有关详细信息，请参阅 <a href="https://github.com/CVKNO80098/SCCWEB_/blob/main/Contact.html">LICENSE</a> 文件。</p>]]></content:encoded>
+      
+      
+      <category domain="https://cvkno80098.github.io/categories/%E7%BC%96%E7%A8%8B/">编程</category>
+      
+      <category domain="https://cvkno80098.github.io/categories/%E7%BC%96%E7%A8%8B/%E4%B8%AA%E4%BA%BA%E5%BC%80%E5%8F%91/">个人开发</category>
+      
+      
+      <category domain="https://cvkno80098.github.io/tags/C/">C++</category>
+      
+      <category domain="https://cvkno80098.github.io/tags/%E7%BC%96%E7%A8%8B/">编程</category>
+      
+      <category domain="https://cvkno80098.github.io/tags/%E4%B8%AA%E4%BA%BA%E5%BC%80%E5%8F%91/">个人开发</category>
+      
+      
+      <comments>https://cvkno80098.github.io/2023/09/01/SCC%EF%BC%9A%E5%AE%89%E5%85%A8%E5%86%85%E5%AE%B9%E5%8A%A0%E5%AF%86%E5%99%A8/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>页面示例</title>
       <link>https://cvkno80098.github.io/2023/08/31/Test/</link>
       <guid>https://cvkno80098.github.io/2023/08/31/Test/</guid>
-      <pubDate>Thu, 31 Aug 2023 13:01:00 GMT</pubDate>
+      <pubDate>Thu, 31 Aug 2023 13:02:20 GMT</pubDate>
       
         
         
@@ -33,32 +62,6 @@
       
       <category domain="https://cvkno80098.github.io/tags/%E6%B5%8B%E8%AF%95/">测试</category>
       
-      
-      <comments>https://cvkno80098.github.io/2023/08/31/Test/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>My New Post</title>
-      <link>https://cvkno80098.github.io/2023/08/31/My-New-Post/</link>
-      <guid>https://cvkno80098.github.io/2023/08/31/My-New-Post/</guid>
-      <pubDate>Thu, 31 Aug 2023 06:43:40 GMT</pubDate>
-      
-        
-        
-      <description>&lt;p&gt;这是我创建的第一个Post！&lt;/p&gt;
-&lt;p&gt;好耶！&lt;/p&gt;
-</description>
-        
-      
-      
-      
-      <content:encoded><![CDATA[<p>这是我创建的第一个Post！</p><p>好耶！</p>]]></content:encoded>
-      
-      
-      
-      
-      <comments>https://cvkno80098.github.io/2023/08/31/My-New-Post/#disqus_thread</comments>
       
     </item>
     
